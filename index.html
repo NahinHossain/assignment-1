@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MotorBike</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="row clearfix">
+           <img src="image/logo.jpg" class="logo" >
+
+            <ul class="main-nav animated slideInDown" id="classCheak">
+              <li><a href="#">DELIVER</a></li>
+              <li><a href="#">HOW TO ORDER</a></li>
+              <li><a href="#">MORE BIKE</a></li>
+              <li><a href="#">PAYMENT</a></li>
+              <li><a href="#">SING UP</a></li>
+
+            </ul>
+            <a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+          </div>
+        </nav>
+        <div class="main-content-header">
+          <h1> WELCOME TO <span class="colorchange">BIKE LOVER</span>.<br>
+            CHOOSE YOUR BIKE</h1>
+        <a href="#" class="button button-full">CLICK TO ORDER</a>
+        <a href="index_2.html" class="button button-full-2">SHOW MORE BIKE</a>
+      </div>
+    </header>
+    
+    <script type="text/javascript">
+      function slideshow(){
+        var a=document.getElementById('classCheak');
+        if(a.style.disply==="none"){
+          a.style.disply="block";
+        }
+        else{
+          a.style.disply="none";
+        }
+      }
+    </script>
+</body>
+</html>
